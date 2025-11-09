@@ -16,7 +16,8 @@ def title_helper(title):
     pass
 
 def jaacard(a,b):
-    A= set(a), B= set(b)
+    A= set(a)
+    B= set(b)
     if not A and not B:
         return 1.0
     if not A or not B:
